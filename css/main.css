@@ -5850,6 +5850,7 @@ button.close {
     color: #2f1f1f;
     font-weight: bolder; }
 
+/* Welcome */
 .welcome {
   background-color: #f4f4f4; }
   .welcome .imgRight {
@@ -5858,13 +5859,54 @@ button.close {
     border-radius: 30px;
     margin-top: 90px; }
   .welcome .textbox {
-    padding: 100px 5% 100px 5%; }
+    padding: 100px 5% 110px 5%; }
   .welcome .tituloWelcome {
     color: #d9725a;
     text-align: center;
     font-weight: lighter;
     font-size: 40px; }
 
-/* Fin Servicios */
+/* GIFT */
+.gift {
+  background-color: #4a3a3a;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .gift .textTit, .gift .textTit2 {
+    color: #d5bc86;
+    font-size: 25px;
+    text-align: right;
+    font-weight: lighter; }
+  .gift .textTit {
+    text-align: right; }
+  .gift .textTit2 {
+    text-align: left; }
+  .gift hr {
+    width: 54%;
+    margin-left: 277px; }
+  .gift .hr2 {
+    width: 54%;
+    margin-left: 0px; }
+  .gift #circle-shape-example {
+    margin-top: 40px;
+    text-align: right; }
+  .gift #circle-shape-example2 {
+    margin-top: 40px;
+    text-align: left; }
+  .gift #circle-shape-example p, .gift #circle-shape-example2 p {
+    color: #d5bc86; }
+  .gift #circle-shape-example .pp {
+    min-width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 30px; }
+  .gift #circle-shape-example2 .pp2 {
+    min-width: 150px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 30px; }
 
 /*# sourceMappingURL=main.css.map */

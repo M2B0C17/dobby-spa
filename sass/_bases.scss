@@ -72,6 +72,7 @@
 	}
 }
 
+/* Welcome */
 .welcome{
 	background-color: $bacground_welcome;
 
@@ -83,7 +84,7 @@
 	}
 
 	.textbox {
-    	padding: 100px 5% 100px 5%;
+    	padding: 100px 5% 110px 5%;
 	}
 
 	.tituloWelcome{
@@ -93,4 +94,68 @@
 		font-size: 40px;
 	}
 }
-/* Fin Servicios */
+
+/* GIFT */
+.gift{
+	background-color: $background_gift;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.textTit, .textTit2{
+		color: $text_color_gift;
+		font-size: 25px;
+		text-align: right;
+		font-weight: lighter;
+	}
+
+	.textTit{
+		text-align: right;
+	}
+
+	.textTit2{
+		text-align: left;
+	}
+
+	hr{
+		width: 54%;
+		margin-left: 277px;
+	}
+
+	.hr2{
+		width: 54%;
+		margin-left: 0px;
+	}
+
+	#circle-shape-example { 
+	  margin-top: 40px; 
+	  text-align: right;
+	}
+
+	#circle-shape-example2{ 
+	  margin-top: 40px; 
+	  text-align: left;
+	}
+
+	#circle-shape-example p, #circle-shape-example2 p { 
+	  color: $text_color_gift;
+	}
+
+	#circle-shape-example .pp { 
+	  min-width: 150px;
+	  float: left;
+	  margin-right: 20px;
+	  margin-bottom: 20px; 
+	  border-radius: 20px;
+	  margin-left: 30px;
+	}
+
+	#circle-shape-example2 .pp2 { 
+	  min-width: 150px;
+	  float: right;
+	  margin-left: 20px;
+	  margin-bottom: 20px; 
+	  border-radius: 20px;
+	  margin-right: 30px;
+	}
+
+}
