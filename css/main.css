@@ -5828,14 +5828,27 @@ button.close {
 
 /* Servicios */
 .sercicios {
-  background-color: #e9e0b7; }
-
-.circuloImg {
-  border: 8px solid #dabe85;
-  border-radius: 150px; }
-
-.circulosarriba {
-  margin-top: -49px; }
+  background-color: #e9e0b7;
+  height: 55vh; }
+  .sercicios .circuloImg {
+    border: 8px solid #dabe85;
+    border-radius: 150px; }
+  .sercicios .circulosarriba {
+    margin-top: -49px; }
+  .sercicios .titServicios {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #2f1f1f; }
+  .sercicios .parrafServicios {
+    font-size: 14px;
+    color: #2f1f1f; }
+  .sercicios .enlaceReadMore {
+    text-decoration: none;
+    color: #dbbe86; }
+  .sercicios .enlaceReadMore:hover {
+    text-decoration: none;
+    color: #2f1f1f;
+    font-weight: bolder; }
 
 /* Fin Servicios */
 

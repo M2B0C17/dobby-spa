@@ -38,14 +38,37 @@
 /* Servicios */
 .sercicios{
 	background-color: #e9e0b7;
-}
+	height: 55vh;
 
-.circuloImg{
-	border: 8px solid #dabe85;
-	border-radius: 150px;
-}
+	.circuloImg{
+		border: 8px solid #dabe85;
+		border-radius: 150px;
+	}
 
-.circulosarriba{
-	margin-top: -49px;
+	.circulosarriba{
+		margin-top: -49px;
+	}
+
+	.titServicios{
+		font-size: 25px;
+		font-weight: lighter;
+		color: $color_text_p;
+	}
+
+	.parrafServicios{
+		font-size: 14px;
+		color: $color_text_p;
+	}
+
+	.enlaceReadMore{
+		text-decoration: $enlaces1;
+		color: $color_enlaces1;
+	}
+
+	.enlaceReadMore:hover{
+		text-decoration: $enlaces1;
+		color: $color_text_p;
+		font-weight: bolder;
+	}
 }
 /* Fin Servicios */
