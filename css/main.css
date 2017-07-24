@@ -5850,6 +5850,21 @@ button.close {
     color: #2f1f1f;
     font-weight: bolder; }
 
+.welcome {
+  background-color: #f4f4f4; }
+  .welcome .imgRight {
+    margin-left: 98px;
+    border: 1px solid #f4f4f4;
+    border-radius: 30px;
+    margin-top: 90px; }
+  .welcome .textbox {
+    padding: 100px 5% 100px 5%; }
+  .welcome .tituloWelcome {
+    color: #d9725a;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px; }
+
 /* Fin Servicios */
 
 /*# sourceMappingURL=main.css.map */

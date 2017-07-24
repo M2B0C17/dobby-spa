@@ -71,4 +71,26 @@
 		font-weight: bolder;
 	}
 }
+
+.welcome{
+	background-color: $bacground_welcome;
+
+	.imgRight{
+		margin-left: 98px;
+		border: 1px solid $bacground_welcome;
+		border-radius: 30px;
+		margin-top: 90px;
+	}
+
+	.textbox {
+    	padding: 100px 5% 100px 5%;
+	}
+
+	.tituloWelcome{
+		color: $color_titulo_welcome;
+		text-align: center;
+		font-weight: lighter;
+		font-size: 40px;
+	}
+}
 /* Fin Servicios */
