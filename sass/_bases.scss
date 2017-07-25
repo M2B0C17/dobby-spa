@@ -1,5 +1,5 @@
 *{
-	font-family: 'Dosis', sans-serif;
+	font-family: $body_font;
 }
 
 .menu{
@@ -127,35 +127,101 @@
 	}
 
 	#circle-shape-example { 
-	  margin-top: 40px; 
-	  text-align: right;
+	  	margin-top: 40px; 
+	  	text-align: right;
 	}
 
 	#circle-shape-example2{ 
-	  margin-top: 40px; 
-	  text-align: left;
+	  	margin-top: 40px; 
+	  	text-align: left;
 	}
 
 	#circle-shape-example p, #circle-shape-example2 p { 
-	  color: $text_color_gift;
+	  	color: $text_color_gift;
 	}
 
 	#circle-shape-example .pp { 
-	  min-width: 150px;
-	  float: left;
-	  margin-right: 20px;
-	  margin-bottom: 20px; 
-	  border-radius: 20px;
-	  margin-left: 30px;
+	  	min-width: 150px;
+	  	float: left;
+	  	margin-right: 20px;
+	  	margin-bottom: 20px; 
+	  	border-radius: 20px;
+	  	margin-left: 30px;
 	}
 
 	#circle-shape-example2 .pp2 { 
-	  min-width: 150px;
-	  float: right;
-	  margin-left: 20px;
-	  margin-bottom: 20px; 
-	  border-radius: 20px;
-	  margin-right: 30px;
+	  	min-width: 150px;
+	  	float: right;
+	  	margin-left: 20px;
+	  	margin-bottom: 20px; 
+	  	border-radius: 20px;
+	  	margin-right: 30px;
+	}
+}
+
+/* Footer */
+footer{
+	background-color: $color_footer;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: $text_color_gift;
+	padding-left: 80px; 
+	padding-right: 80px;
+
+	.imgIconos{
+		background-color: $color_background_imgIconos;
+		border: 5px solid $color_borde_imgIconos;
+		border-radius: 100px;
+		width: $tamano_imgIconos;
 	}
 
+	.bajame{
+		margin-top: 40px;
+	}
+
+	.left{
+		margin-left: 20px;
+	}
+
+	h4{
+		font-weight: 300;
+	}
+
+	.comillas{
+		width: 50px;
+	  	float: left;
+	  	margin-right: 15px;
+	  	margin-bottom: 10px;
+	}
+
+	#shape{ 
+	  	margin-top: 40px; 
+	  	text-align: left;
+	}
+
+	#shape p { 
+	  	color: $text_color_gift;
+	}
+
+	.bajame{
+		margin-top: 40px;
+	}
+
+	.enlaceEmail{
+		text-decoration: $enlaces1;
+		color: $color_borde_imgIconos;
+	}
+
+	.enlaceEmail:hover{
+		text-decoration: $enlaces1;
+		color: $color_enlaces1;
+	}
+
+	.hr3{
+		width: 100%;
+	}
+
+	.textFooter{
+		font-size: 11px;
+	}
 }

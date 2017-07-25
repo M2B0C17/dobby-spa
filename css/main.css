@@ -5798,7 +5798,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 * {
-  font-family: 'Dosis', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .menu {
   width: 100%;
@@ -5908,5 +5908,47 @@ button.close {
     margin-bottom: 20px;
     border-radius: 20px;
     margin-right: 30px; }
+
+/* Footer */
+footer {
+  background-color: #2f1f1f;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #d5bc86;
+  padding-left: 80px;
+  padding-right: 80px; }
+  footer .imgIconos {
+    background-color: #bfb68d;
+    border: 5px solid #df8761;
+    border-radius: 100px;
+    width: 100px; }
+  footer .bajame {
+    margin-top: 40px; }
+  footer .left {
+    margin-left: 20px; }
+  footer h4 {
+    font-weight: 300; }
+  footer .comillas {
+    width: 50px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px; }
+  footer #shape {
+    margin-top: 40px;
+    text-align: left; }
+  footer #shape p {
+    color: #d5bc86; }
+  footer .bajame {
+    margin-top: 40px; }
+  footer .enlaceEmail {
+    text-decoration: none;
+    color: #df8761; }
+  footer .enlaceEmail:hover {
+    text-decoration: none;
+    color: #dbbe86; }
+  footer .hr3 {
+    width: 100%; }
+  footer .textFooter {
+    font-size: 11px; }
 
 /*# sourceMappingURL=main.css.map */
